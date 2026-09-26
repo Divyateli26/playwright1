@@ -60,5 +60,6 @@ test.describe('Amazon Shared Browser Suite', () => {
     await searchBox.press('Backspace');
 
     await expect(page).toHaveURL(/amazon\.in/);
+    //ok
   });
 });
